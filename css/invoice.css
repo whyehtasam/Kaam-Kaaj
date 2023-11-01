@@ -1,0 +1,92 @@
+.container {
+    width: 100vw;
+}
+
+.receipt {
+    padding: 2%;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    background-color: #e6efed;
+    border-radius: 10px;
+}
+
+.time-date {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3%;
+}
+
+.date,
+.time {
+    margin-right: 2%;
+}
+
+.notpaid:after{
+    content: "Not Paid";
+    color: #f06960;
+    float:left;
+    margin-left:3%;
+    font-weight:bolder;
+    font-family: "Gill Sans", sans-serif;
+    font-feature-settings: "smcp", "zero";
+}
+.paid:after{
+    content: "Paid";
+    color: green;
+    float:left;
+    margin-left:3%;
+    font-weight:bolder;
+    font-family: "Gill Sans", sans-serif;
+    font-feature-settings: "smcp", "zero";
+}
+
+
+
+.description {
+    display: grid;
+    grid-template-columns: auto;
+}
+/* .item-container {
+    display: grid;
+    grid-template-columns: auto;
+} */
+
+hr {
+    border: 1px dashed black;
+}
+
+.total-container {
+    text-align: left;
+    padding-left: 15%;
+}
+
+.left {
+    margin-right: 18%;
+    float: right;
+}
+ .gap{
+    width: 400px;
+ }
+
+ .navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+  }
+  .navbar-brand {
+    font-size: 30px;
+  }
+ .social-icon {
+  font-size: 25px;
+  padding: 9px;
+  /* border-radius: 49% 51% 50% 50% / 30% 30% 70% 70% ; */
+  color: white;
+  /* background: white; */
+}
+.social-icon:hover {
+  background-color: white;
+  color: black;
+  border-radius: 42%;
+}

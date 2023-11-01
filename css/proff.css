@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(191, 211, 223, 0.558);
+    font-family: 'Poppins', sans-serif;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+  }
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;  
+        text-align: center;  
+  }
+  input[type="text"],
+  input[type="number"]
+  {   
+       height: 40px;
+       width: 300px;
+       border-radius: 4px;
+       /* margin: 10px;   */
+  }
+  .job-search{
+    margin: 10px;
+  }
+ .social-icon {
+  font-size: 25px;
+  padding: 9px;
+  /* border-radius: 49% 51% 50% 50% / 30% 30% 70% 70% ; */
+  color: white;
+  /* background: white; */
+}
+.social-icon:hover {
+  background-color: white;
+  color: black;
+  border-radius: 42%;
+}
+  

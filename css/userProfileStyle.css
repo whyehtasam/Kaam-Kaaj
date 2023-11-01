@@ -1,0 +1,44 @@
+body{ 
+    background-color: rgb(236, 236, 236);
+    
+}
+.card img {
+     
+    border: 5px double grey;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 2rem auto;
+    /* box-sizing: border-box; */
+    padding: 0.5em;
+    object-fit: contain;
+
+
+}
+.profile-pic{
+    /* width: 30%; */
+}
+.card{
+    background-color: rgb(255, 253, 253);
+    border: 1px solid white;
+    margin:10vh auto ;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4rem;
+
+
+}
+
+ a button{
+    width: 6em;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+   
+    
+}
+
+
+/* responsive */
+
+  

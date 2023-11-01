@@ -1,0 +1,36 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.wlcm-heading{
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.about-para{
+  text-align: justify;
+  font-size: 18px;
+}
+.privacy-section{
+  /* padding: 50px; */
+}
+
+  @media only screen and (max-width:767px){
+    .about-para{
+      text-align: justify;
+      padding: 20px;
+    }
+    
+    .about-subhead{
+      margin-top: 15px;
+    }
+  }
+
+  .privacy-section p{
+    padding:0 20px;
+    font-size: 18px;
+  }
+  .privacy-section h2{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
